@@ -1,0 +1,77 @@
+Bin 1:
+	Items: ["Jack Daniel's Apple 0.7l 35%'"]
+	Total weight: 1.0
+	Total volume: 18000
+	wasted space: 15732
+	wasted space in %: 87.40%
+Bin 2:
+	Items: ["Russian Standard Original 1l 40%'", "East Imperial Grapefruit Tonic 0.15l'"]
+	Total weight: 2.0
+	Total volume: 45000
+	wasted space: 39604
+	wasted space in %: 88.01%
+Items that did not fit:
+	Russian Standard Original 1l 40%' (12 x 12 x 34) with weight 1.0
+	Beluga Celebration 1l 40%' (9 x 9 x 36) with weight 1.0
+Bin 1:
+	Items: ["Jack Daniel's Apple 0.7l 35%'", "Jack Daniel's Apple 0.7l 35%'", "East Imperial Grapefruit Tonic 0.15l'", "Jack Daniel's Cola 0.33l 5%'", "Paulaner Weissbier 12º 0.33l 5.5%'", "Hendrick's Gin Lunar 0.7l 43.3% L.E.'"]
+	Total weight: 6.0
+	Total volume: 18000
+	wasted space: 9620
+	wasted space in %: 53.44%
+Bin 2:
+	Items: ["Russian Standard Original 1l 40%'", "East Imperial Grapefruit Tonic 0.15l'"]
+	Total weight: 2.0
+	Total volume: 45000
+	wasted space: 39604
+	wasted space in %: 88.01%
+Items that did not fit:
+	Russian Standard Original 1l 40%' (12 x 12 x 34) with weight 1.0
+	Beluga Celebration 1l 40%' (9 x 9 x 36) with weight 1.0
+	Stolichnaya vodka 0.7l 40%' (8 x 8 x 33) with weight 1.0
+Bin 1:
+	Items: ["Jack Daniel's Apple 0.7l 35%'", "Jack Daniel's Apple 0.7l 35%'", "East Imperial Grapefruit Tonic 0.15l'", "Jack Daniel's Cola 0.33l 5%'", "Paulaner Weissbier 12º 0.33l 5.5%'", "Hendrick's Gin Lunar 0.7l 43.3% L.E.'"]
+	Total weight: 6.0
+	Total volume: 18000
+	wasted space: 9620
+	wasted space in %: 53.44%
+Bin 2:
+	Items: ["Russian Standard Original 1l 40%'", "East Imperial Grapefruit Tonic 0.15l'", "Jack Daniel's Apple 0.7l 35%'", "Hendrick's Gin Lunar 0.7l 43.3% L.E.'", "Paulaner Weissbier 12º 0.33l 5.5%'", "Jack Daniel's Cola 0.33l 5%'"]
+	Total weight: 6.0
+	Total volume: 45000
+	wasted space: 33992
+	wasted space in %: 75.54%
+Items that did not fit:
+	Russian Standard Original 1l 40%' (12 x 12 x 34) with weight 1.0
+	Beluga Celebration 1l 40%' (9 x 9 x 36) with weight 1.0
+	Stolichnaya vodka 0.7l 40%' (8 x 8 x 33) with weight 1.0
+	East Imperial Grapefruit Tonic 0.15l' (5 x 5 x 20) with weight 1.0
+Bin 1:
+	Items: ["Jack Daniel's Apple 0.7l 35%'", "Jack Daniel's Apple 0.7l 35%'", "East Imperial Grapefruit Tonic 0.15l'", "Jack Daniel's Cola 0.33l 5%'", "Paulaner Weissbier 12º 0.33l 5.5%'", "Hendrick's Gin Lunar 0.7l 43.3% L.E.'"]
+	Total weight: 6.0
+	Total volume: 18000
+	wasted space: 9620
+	wasted space in %: 53.44%
+Bin 2:
+	Items: ["Russian Standard Original 1l 40%'", "East Imperial Grapefruit Tonic 0.15l'", "Jack Daniel's Apple 0.7l 35%'", "Hendrick's Gin Lunar 0.7l 43.3% L.E.'", "Paulaner Weissbier 12º 0.33l 5.5%'", "Jack Daniel's Cola 0.33l 5%'"]
+	Total weight: 6.0
+	Total volume: 45000
+	wasted space: 33992
+	wasted space in %: 75.54%
+Items that did not fit:
+	Russian Standard Original 1l 40%' (12 x 12 x 34) with weight 1.0
+	Beluga Celebration 1l 40%' (9 x 9 x 36) with weight 1.0
+	Jack Daniel's Apple 0.7l 35%' (9 x 9 x 28) with weight 1.0
+	Stolichnaya vodka 0.7l 40%' (8 x 8 x 33) with weight 1.0
+	Hendrick's Gin Lunar 0.7l 43.3% L.E.' (10 x 10 x 20) with weight 1.0
+	Paulaner Weissbier 12º 0.33l 5.5%' (6 x 6 x 21) with weight 1.0
+	Jack Daniel's Cola 0.33l 5%' (7 x 7 x 12) with weight 1.0
+	East Imperial Grapefruit Tonic 0.15l' (5 x 5 x 20) with weight 1.0
+Comparison results:
+---------------------------------------------------------
+Method		Used Boxes	Waste (%)	Execution Time (s)
+---------------------------------------------------------
+Next Fit	2		87.83%		0.00332
+First Fit	2		78.13%		0.00101
+Best Fit	2		69.23%		0.00100
+Worst Fit	2		69.23%		0.00100
